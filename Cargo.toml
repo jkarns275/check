@@ -2,7 +2,7 @@
 name = "check"
 version = "0.1.0"
 authors = ["Joshua Karns <jkarns@oswego.com>"]
-description = "A macro minimize error checking code"
+description = "A macro to minimize error checking code"
 license = "MIT"
 
 [dependencies]
