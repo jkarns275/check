@@ -5,7 +5,7 @@ in a variable.
 
 # Example
 Without check:
-`rust
+```rust
 #[macro_use] extern crate check;
 use std::fs::File;
 use std::io::prelude::*;
@@ -29,9 +29,9 @@ fn write_to_file(data: &[u8]) -> Result<(), Error> {
    // we made it to here, both functions were successfull!
    Ok(())
 }
-`
+```
 With check:
-`rust
+```rust
 #[macro_use] extern crate check;
 use std::fs::File;
 use std::io::prelude::*;
@@ -50,4 +50,4 @@ fn write_to_file(data: &[u8]) -> Result<(), Error> {
    // we made it to here, both functions were successfull!
    Ok(())
 }
-` 
+```
